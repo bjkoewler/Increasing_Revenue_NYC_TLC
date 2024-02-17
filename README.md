@@ -12,7 +12,7 @@ The data was collected byt the NYC TLC, and the dataset consists of 408,294 rows
 # Modeling and Evaluation
 A linear regression model was built to predict fare amount using features of the dataset. This model achieved an r^2 of 0.87, an MAE of 2.12, and an MSE of 14.2. This model explains 87% of the variation in fare amount. A suite of machine learning models was constructed to see which would most accurately predict those riders who would be a generous tipper. The champion model was an xgboosted forest, which was able to positively classify 82% of all generous tippers in the test dataset. The plot below illustrates the most important features in these predictions.
 
-<a href="url"><img src="https://github.com/bjkoewler/Increasing_Revenue_NYC_TLC/blob/main/images/feature_importances.png" align="justified" height="500" width="500" ></a>
+<a href="url"><img src="https://github.com/bjkoewler/Increasing_Revenue_NYC_TLC/blob/main/images/feature_importances.png" align="justify" height="500" width="500" ></a>
 
 # Conclusion
 These models will help to increase the operations and revenue of NYC TLC and its drivers, and will help provide pricing transparency to riders. Recommendations include tracking tipping behavior across rides per rider, investigating why Vendor 2 solicits more generous tips, and using the MLR model to build an algorithm into an app that would allow potential riders to see fare price before calling a cab.
