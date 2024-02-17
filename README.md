@@ -17,4 +17,4 @@ A linear regression model was built to predict fare amount using features of the
 <img src="https://github.com/bjkoewler/Increasing_Revenue_NYC_TLC/blob/main/images/feature_importances.png" align="center" height="500" width="500">
 
 ## Conclusion
-These models will help to increase the operations and revenue of NYC TLC and its drivers, and will help provide pricing transparency to riders. Recommendations include tracking tipping behavior across rides per rider, investigating why Vendor 2 solicits more generous tips, and using the MLR model to build an algorithm into an application that would allow potential riders to see fare price before calling a cab.
+These models will help to increase the operations and revenue of NYC TLC and its drivers, and will help provide pricing transparency to riders. Recommendations include tracking tipping behavior across rides per rider, investigating why VendorID_2 solicits more generous tips, and using the MLR model to build an algorithm into an application that would allow potential riders to see fare price before calling a cab.
