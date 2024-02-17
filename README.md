@@ -1,7 +1,7 @@
 # Increasing_Revenue_NYC_TLC
 
 ## Overview
-The goal of this project was to construct a suite of models to improve operations and revenue of the New York City Taxi and Limousine Commission. A multiple linear regression model was developed to predict fare amounts based on ride duration and distance. A random forest model was constructed to predict whether a rider would be a generous tipper (>20% of fare tip). 
+The goal of this project was to construct a suite of models to improve operations and revenue of the New York City Taxi and Limousine Commission. A multiple linear regression model was developed to predict fare amounts based on ride duration and distance. A random forest model was constructed to predict whether a rider would be a generous tipper (>20% of fare). 
 
 ## Business Understanding
 This NYC TLC consists of many employees. This data coems from 200,000 licensees and over one million trips. With mean one bedroom apartment rent in NYC costing $4100 per month, and mean taxi driver salary at $45,500, this project was designed to increase revenue of the NYC TLC and its drivers, to help drivers better afford necessities of daily living. 
