@@ -9,7 +9,7 @@ This NYC TLC consists of many employees. This data coems from 200,000 licensees 
 ## Data Understanding
 The data was collected byt the NYC TLC, and the dataset consists of 408,294 rows, and is part of a larger dataset of about 117 million rows. There are 18 columns, with variables such as pickup and dropoff location, number of passengers, payment type, fare amount, tip amount, pickup time and dropoff time. Some variables were engineered into new ones, including mean duration and distance for every pickup/dropoff location combination, a binary column indicating whether a rider was a generous tipper, and a column indicating whether a ride was during am/pm rush hour or not. Below is a heatmap of correlations between dataset variables.
 
-<img src="https://github.com/bjkoewler/Increasing_Revenue_NYC_TLC/blob/main/images/variable_heatmap.png" align="center" height="500" width="650">
+<img src="https://github.com/bjkoewler/Increasing_Revenue_NYC_TLC/blob/main/images/correlation_heatmap.png" align="center" height="500" width="650">
 
 ## Modeling and Evaluation
 A linear regression model was built to predict fare amount using features of the dataset. This model achieved an r^2 of 0.87, an MAE of 2.12, and an MSE of 14.2. This model explains 87% of the variation in fare amount. A suite of machine learning models was constructed to see which would most accurately predict those riders who would be a generous tipper. The champion model was an xgboosted forest, which was able to positively classify 82% of all generous tippers in the test dataset. The plot below illustrates the most important features in these predictions.
